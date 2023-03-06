@@ -7,6 +7,7 @@ const Input = ({
 	onKeyDown,
 	onChange = () => {},
 	disabled,
+	ref = null,
 }) => {
 	return (
 		<input
@@ -17,6 +18,7 @@ const Input = ({
 			onChange={onChange}
 			onKeyDown={onKeyDown}
 			disabled={disabled}
+			ref={ref}
 		/>
 	);
 };

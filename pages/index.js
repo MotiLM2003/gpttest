@@ -6,6 +6,7 @@ import Button from '../components/Button';
 
 export default function Home() {
 	const chatBoxRef = useRef(null);
+	const inputRef = useRef(null);
 	const [url, setURL] = useState(null);
 	const [prompt, setPrompt] = useState('');
 	const [question, setQuestion] = useState('');
